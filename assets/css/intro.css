@@ -1,0 +1,163 @@
+#loucuragem{
+  background-color: #000;
+}
+
+
+.column div {
+	position: relative;
+	float: left;
+	width: 500px;
+	height: 300px;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    box-sizing: inherit;
+}
+
+.intro{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+    background: #000;
+    transition: 1s;
+}
+
+.intro img{
+    top: -300px;
+    position: absolute;
+}
+
+.intro p{
+    color: gray;
+    font-size: 2.6rem;
+    margin-top: 10px;
+}
+
+.logo{
+    font-size: 5.5rem;
+    color: white;
+    margin-top: 300px;
+}
+
+.logo-parts{
+    position: relative;
+    display: inline-block;
+    bottom:  -20px;
+    opacity: 0;
+}
+
+.logo-parts.active{
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out.5s;
+}
+
+.logo-parts.fade{
+    bottom: 250px;
+    opacity: 0;
+    transition: ease-in-out.5s;
+}
+
+.content{
+    width: 100%;
+    padding: 50px;
+    font-size: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.abacate{
+color: #000;
+}
+
+.idioma{
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+}   
+
+.bandeira{
+    width: 100%;
+    height: 100%;
+
+}
+
+span{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+/* Gray Scale */
+.hover08 figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover08 figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+/* FIM - Gray Scale*/
+
+
+
+
+/*HOVER DAS PALAVRAS: "ENGLISH" E "PORTUGUÊS"*/
+
+.column div span {
+	position: absolute;
+	bottom: -15px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+figure {
+
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+figure:hover+span {
+	bottom: -70px;
+	opacity: 1;
+}
