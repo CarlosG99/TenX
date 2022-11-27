@@ -512,7 +512,7 @@ bottom: 3px;
 
 .hero-arrow a {
   font-size: 28px;
-  color: #ffffff;
+  color: #000000;
 }
 
 @-webkit-keyframes home-arrow-down {
