@@ -94,6 +94,7 @@ html, body {
   box-shadow: 4px 4px 0px 0px #dddddd;
 }
 
+
 .rectangle i,
 .big-rectangle img,
 .rectangle span,
@@ -109,6 +110,8 @@ html, body {
   -ms-transform: translate(-50%, -50%) rotate(-45deg);
 }
 
+
+
 .big-rectangle {
   position: absolute;
   right: auto;
@@ -117,7 +120,7 @@ html, body {
   margin: 0 auto;
   width: 230px;
   height: 230px;
-  background-color: #196fc2;
+  background-color: #000000;
   border: 0;
   transform: translate(-50%, -50%) rotate(45deg);
   -webkit-transform: translate(-50%, -50%) rotate(45deg);
@@ -129,6 +132,8 @@ html, body {
   -moz-box-shadow: 10px 10px 0px 0px #dddddd;
   box-shadow: 10px 10px 0px 0px #dddddd;
 }
+
+
 
 .medium-rectangle {
   width: 75px;
