@@ -294,6 +294,10 @@ html, body {
   display: inline-block;
 }
 
+.TMNC{
+  max-width: 100%;
+}
+
 .jagT{
 display: inline-block;
 position: relative;
@@ -634,7 +638,7 @@ bottom: 3px;
     transform: scale(1.5);
     transition: .3s;
   }
-
+ 
 .site-section {
   padding: 100px 0;
 }
@@ -1401,7 +1405,6 @@ bottom: 3px;
 /* Section: Team */
 .team {
   margin-top: 50px;
-  margin-left: 26vw;
 
 }
 
@@ -2090,7 +2093,7 @@ bottom: 3px;
 
 /* Sections background: Me */
 .section-me {
-  background: url(../img/portfolio-7.jpg) center no-repeat fixed;
+  background: url(/assets/img/Black\ Background\ 1.png) center no-repeat fixed;
 }
 
 .section-me h2 {
