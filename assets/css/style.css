@@ -620,6 +620,21 @@ bottom: 3px;
 /*
  * Sections
  */
+
+ .floatingZap{
+
+  position: fixed;
+  right: 3vw;
+  z-index: 20;
+  
+
+ }
+
+  .floatingZap:hover{
+    transform: scale(1.5);
+    transition: .3s;
+  }
+
 .site-section {
   padding: 100px 0;
 }

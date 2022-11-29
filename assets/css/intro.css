@@ -172,6 +172,7 @@ figure:hover+span {
         margin: 0 0 0 25px;
         padding: 0;
     }
+
     
     html{
         box-sizing: border-box;
@@ -241,7 +242,7 @@ figure:hover+span {
     
     .content{
         width: 100%;
-        padding: 20px;
+        padding: 5px;
         font-size: 2rem;
         position: fixed;
         top: 0;
@@ -269,6 +270,7 @@ figure:hover+span {
     
     
     }
+
     
     span{
         color: white;
