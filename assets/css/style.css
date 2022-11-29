@@ -1413,7 +1413,7 @@ bottom: 3px;
 
   .team {
     margin-top: 50px;
-    min-width: 100%;
+    min-width: 90%;
     margin-left: 25%;
   
   }
@@ -2111,7 +2111,7 @@ bottom: 3px;
 /* Sections background: Me */
 .section-me {
   background: url(../img/Black\ Background\ 1.png) center no-repeat fixed;
-  max-width: 100%;
+  background-size: cover;
 }
 
 .section-me h2 {
