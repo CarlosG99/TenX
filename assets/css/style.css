@@ -1408,6 +1408,18 @@ bottom: 3px;
 
 }
 
+@media (min-width: 842px){
+
+  .team {
+    margin-top: 50px;
+    min-width: 100%;
+    margin-left: 25%;
+  
+  }
+
+
+}
+
 .team-member {
   height: 335px;
   perspective: 1000;
@@ -2093,7 +2105,7 @@ bottom: 3px;
 
 /* Sections background: Me */
 .section-me {
-  background: url(assets/img/Black\ Background\ 1.png) center no-repeat fixed;
+  background: url(../img/Black\ Background\ 1.png) center no-repeat fixed;
 }
 
 .section-me h2 {
