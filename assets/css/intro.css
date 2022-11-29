@@ -241,7 +241,7 @@ figure:hover+span {
     
     .content{
         width: 100%;
-        padding: 50px;
+        padding: 20px;
         font-size: 2rem;
         position: fixed;
         top: 0;
