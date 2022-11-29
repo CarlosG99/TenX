@@ -2093,7 +2093,7 @@ bottom: 3px;
 
 /* Sections background: Me */
 .section-me {
-  background: url(/assets/img/Black\ Background\ 1.png) center no-repeat fixed;
+  background: url(assets/img/Black\ Background\ 1.png) center no-repeat fixed;
 }
 
 .section-me h2 {
