@@ -629,6 +629,7 @@ bottom: 3px;
 
   position: fixed;
   right: 3vw;
+  bottom: 2vw;
   z-index: 20;
   
 
@@ -1421,6 +1422,10 @@ bottom: 3px;
 }
 
 .team-member {
+  width: 235px;
+  min-width: auto;
+  min-height: auto;
+  margin-left: 15%;
   height: 335px;
   perspective: 1000;
   -webkit-perspective: 1000;
@@ -2106,6 +2111,7 @@ bottom: 3px;
 /* Sections background: Me */
 .section-me {
   background: url(../img/Black\ Background\ 1.png) center no-repeat fixed;
+  max-width: 100%;
 }
 
 .section-me h2 {
