@@ -431,7 +431,7 @@ bottom: 3px;
   }
   .site-navigation .navbar-collapse {
     position: relative;
-    background-color: #196fc0;
+    background-color: #000000;
     z-index: 99;
     text-align: center;
     border-top: 0;
@@ -633,12 +633,16 @@ bottom: 3px;
   z-index: 20;
   
 
- }
+ };
+
+ @media (min-width: 842px){
 
   .floatingZap:hover{
     transform: scale(1.5);
     transition: .3s;
   }
+
+ };
  
 .site-section {
   padding: 100px 0;
