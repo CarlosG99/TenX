@@ -30,6 +30,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* 
@@ -431,7 +432,7 @@ bottom: 3px;
   }
   .site-navigation .navbar-collapse {
     position: relative;
-    background-color: #000000;
+    background-color:black;
     z-index: 99;
     text-align: center;
     border-top: 0;
@@ -633,16 +634,8 @@ bottom: 3px;
   z-index: 20;
   
 
- };
+ }
 
- @media (min-width: 842px){
-
-  .floatingZap:hover{
-    transform: scale(1.5);
-    transition: .3s;
-  }
-
- };
  
 .site-section {
   padding: 100px 0;
@@ -1422,6 +1415,10 @@ bottom: 3px;
   
   }
 
+  .floatingZap:hover{
+    transform: scale(1.5);
+    transition: .3s;
+  }
 
 }
 
