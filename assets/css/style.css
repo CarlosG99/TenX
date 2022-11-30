@@ -636,6 +636,13 @@ bottom: 3px;
 
  }
 
+ .carousel-indicators.nav-tabs.text-center{
+
+  position: relative;
+  left: 9%;
+
+ }
+
  
 .site-section {
   padding: 100px 0;
