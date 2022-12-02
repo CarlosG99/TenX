@@ -36,8 +36,15 @@ html, body {
 /* 
  * Background colors 
  */
-.blue-bg {
+
+
+.container-XPTO{
+
   background-color: #000000;
+  padding: 20px;
+  border-radius: 25px;
+
+
 }
 
 /* 
@@ -116,11 +123,11 @@ html, body {
 .big-rectangle {
   position: absolute;
   right: auto;
-  top: 50%;
+  top: 28%;
   left: 50%;
   margin: 0 auto;
-  width: 230px;
-  height: 230px;
+  width: 150px;
+  height: 150px;
   background-color: #000000;
   border: 0;
   transform: translate(-50%, -50%) rotate(45deg);
@@ -636,6 +643,73 @@ bottom: 3px;
 
  }
 
+ .highLIT{
+
+  text-decoration: underline;
+ }
+
+.jagBoladx{
+
+  width: 55%;
+  height: 55%;
+  position: relative;
+  left: 20%;
+  margin-bottom: -8%;
+
+}
+
+.ctaHead{
+
+  position: relative;
+  left: 40%;
+
+}
+
+.section-about{
+
+  background-color:rgba(238, 238, 238, 0.5)
+
+}
+
+.servicesXPTO{
+
+  margin-bottom: -30%;
+
+}
+
+@media (max-width: 842px){
+  
+  .jagBoladx{
+
+    width: 100%;
+    height: 100;
+    position: relative;
+    left: 1%;
+    margin-bottom: -8%;
+  
+  }
+  
+  .ctaHead{
+  
+    position: relative;
+    left: 21%;
+  
+  }
+
+  .mainHeadlinha{
+
+ 
+
+  }
+
+}
+
+.headlinerr{
+
+margin-top: -10%;
+  
+}
+
  .carousel-indicators.nav-tabs.text-center{
 
   position: relative;
@@ -655,6 +729,7 @@ bottom: 3px;
   color: #000000;
   text-align: center;
   text-transform: uppercase;
+  line-height: inherit;
 }
 
 .section-subtitle {
@@ -1042,18 +1117,25 @@ bottom: 3px;
 }
 
 /* Section: Services */
-.section-services.site-section {
-  padding: 0;
-  background-color: #f6f6f6;
+
+#services{
+
+  background-color: rgba(238, 238, 238, 0.5);
+
 }
 
-.section-services .container-fluid {
-  padding: 100px 15px 70px;
+.section-services.site-section {
+  padding: 0;
   background-color: #ffffff;
 }
 
+.section-services .container-fluid {
+  padding: 100px 15px 0px;
+  
+}
+
 .section-services .container-fluid + .container {
-  margin-top: 80px;
+  margin-top: 0px;
 }
 
 .section-services .col-sm-fifth {
@@ -1302,6 +1384,7 @@ bottom: 3px;
 /* Section: Reviews */
 .site-section.section-reviews {
   padding-bottom: 0;
+  background-color: white;
 }
 
 .site-section.section-reviews .blue-bg {
@@ -1408,6 +1491,14 @@ bottom: 3px;
 }
 
 /* Section: Team */
+
+#team{
+
+  background-color: rgba(238, 238, 238, 0.5);
+
+}
+
+
 .team {
   margin-top: 50px;
 
@@ -1843,6 +1934,13 @@ bottom: 3px;
 }
 
 /* Section: Portfolio */
+
+#works{
+
+  background-color: rgba(238, 238, 238, 0.5);
+
+}
+
 .portfolio {
   margin-top: 50px;
 }
