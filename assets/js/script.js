@@ -26,12 +26,14 @@ $(function () {
         offset: 10
     });
 
+// fixme* mudar o tempo dos milissegundos
+
 //jQuery for page scrolling feature - requires jQuery Easing plugin
     $(document).on('click', '.page-scroll a', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
-        }, 1000, 'easeInOutExpo');
+        }, 0, 'easeInOutExpo');
         event.preventDefault();
     });
 

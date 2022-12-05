@@ -2382,6 +2382,7 @@ textarea.form-control {
   margin: 10px 8px 5px;
   color: #ffffff;
   box-shadow: none;
+  background-color: #000000;
 }
 
 .section-networks a:hover, .section-networks a:focus {
