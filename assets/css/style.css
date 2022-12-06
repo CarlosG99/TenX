@@ -62,6 +62,7 @@ html, body {
   text-transform: uppercase;
 }
 
+
 .btn-inverted {
   color: #ffffff;
   background-color: transparent;
@@ -2192,7 +2193,7 @@ margin-top: -10%;
 .section-background p {
   position: relative;
   margin: 10px 0 0;
-  color: #ffffff;
+  color: #000000;
 }
 
 .section-background .btn {
@@ -2215,14 +2216,45 @@ margin-top: -10%;
 }
 
 /* Sections background: Me */
+
+.whiteeJ{
+
+    width: 55%;
+    height: 55%;
+    position: relative;
+    margin-bottom: -20%;
+    margin-top: -10%;
+
+}
+
+.mandra-XPTO{
+
+  background-color: white;
+  width: 20%;
+  height: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 25px;
+  position: relative;
+  margin-top: 10%;
+
+}
+
+.buttone{
+
+  width: 100%;
+  font-size: large;
+  position: absolute;
+
+}
+
 .section-me {
-  background: url(../img/Black\ Background\ 1.png) center no-repeat fixed;
-  background-size: cover;
+  background-color: black;
 }
 
 .section-me h2 {
   margin: 0;
-  color: #ffffff;
+  color: #000000;
   position: relative;
 }
 
