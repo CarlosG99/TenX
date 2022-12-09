@@ -69,6 +69,7 @@ html, body {
   border-color: #ffffff;
 }
 
+
 .btn:hover,
 .btn:focus {
   color: #ffffff;
@@ -83,12 +84,13 @@ html, body {
   border-color: #000000;
 }
 
+
+
 a{
   overflow:hidden;
   }
   a:before{
   content: '';
-  position: absolute;
   top: 5px;
   left: 5px;
   bottom: 5px;
@@ -754,6 +756,7 @@ bottom: 3px;
   left: 40%;
 
 }
+
 
 .section-about{
 
